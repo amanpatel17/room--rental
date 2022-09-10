@@ -1,0 +1,375 @@
+
+.App {
+
+  font-weight:500;
+  font-size:25px;
+  text-align: center;
+  display:flex;
+  color: #11b69ae5;
+  justify-content:center;
+  align-items:center;
+  /* min-height:100vh; */
+  /* background:green; */
+}
+
+.img{
+
+  background-image:url('/src/images/community.jpg');
+
+height: 330px;
+width: 100%;
+
+}
+
+
+
+#hero-banner{
+
+width: 100%;
+padding:0px 0px ;
+color: black;
+
+}
+
+#hero-banner p {
+font-weight: 400;
+
+}
+
+#hero-banner .image {
+border-radius:  80px 80px 0px 80px;
+overflow: hidden;
+height: 450px;
+width: auto;
+
+}
+
+/* search  */
+
+#select-section{
+    background-color:whitesmoke ;
+    /* margin: 50px ; */
+    padding: 100px 0 ;
+ 
+}
+
+#hero-banner  .service-show{
+   cursor: pointer;
+    padding: 20px 30px  ;
+    text-align: center;
+  
+
+border-radius: 30px;
+margin: 10px;
+}
+
+
+
+
+
+
+
+#about-section{
+    width: 100%;
+    padding: 120px 0;
+    background-color: whitesmoke;
+    
+}
+
+#about-section .image{
+   border-radius: 80px 0px 80px 80px;
+overflow: hidden;
+}
+
+#about-section .image img{
+ width: 100%;
+ height: 400px;
+
+}
+
+/* service */
+#service-section{
+    background-color:whitesmoke;
+    margin: 50px ;
+    padding: 100px 0 ;
+
+}
+#rooms-section{
+ 
+    margin: 50px ;
+    padding: 40px 0 ;
+
+}
+
+#service-section  .service-show{
+   
+    padding: 20px 30px  ;
+    text-align: center;
+border-radius: 30px;
+margin: 10px;
+}
+
+#service-section .service-show p{
+   
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(43, 45, 45, 0.813);
+}
+
+#service-section .service-show i .fab {
+   
+    padding: 20px ;
+    width: 58px;
+    color: #17a2b8;
+  background-color: whitesmoke;
+    border-radius: 100%;
+    text-align: center;
+
+}
+
+/* property */
+
+#property-section{
+    width: 100%;
+    padding: 50px 0 ;
+    background-color: white;
+   color: #313437;
+   
+  
+
+}
+
+
+
+
+
+
+.my-lst:hover{
+
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16)
+  
+  }
+
+.my-lst-1:hover{
+
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition: all .40s ease-in-out;
+  }
+
+
+
+
+
+
+/* mailsection */
+
+#mail-section{
+    width: 100%;
+padding: 60px 0;
+text-align: center;
+
+
+}
+
+.newsletter-subscribe {
+    color:#313437;
+    background-color:#fff;
+    padding:50px 0;
+  }
+  
+  .newsletter-subscribe p {
+    color:#7d8285;
+    line-height:1.5;
+  }
+  
+  .newsletter-subscribe h2 {
+    font-size:24px;
+    font-weight:bold;
+    margin-bottom:25px;
+    line-height:1.5;
+    padding-top:0;
+    margin-top:0;
+    color:inherit;
+  }
+  
+  .newsletter-subscribe .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 25px;
+  }
+  
+  .newsletter-subscribe .intro p {
+    margin-bottom:35px;
+  }
+  
+  .newsletter-subscribe form {
+    justify-content:center;
+  }
+  
+  .newsletter-subscribe form .form-control {
+    background:#eff1f4;
+    border:none;
+    border-radius:3px;
+    box-shadow:none;
+    outline:none;
+    color:inherit;
+    text-indent:9px;
+    height:45px;
+    margin-right:10px;
+    min-width:300px;
+  }
+  
+  .newsletter-subscribe form .btn {
+    padding:16px 25px;
+    border:none;
+    background:none;
+    box-shadow:none;
+    text-shadow:none;
+    opacity:0.9;
+    text-transform:uppercase;
+   
+   
+    letter-spacing:0.4px;
+    line-height:1;
+  }
+  
+  .newsletter-subscribe form .btn:hover {
+    opacity:1;
+  }
+  
+  .newsletter-subscribe form .btn:active {
+    transform:translateY(1px);
+  }
+  
+  .newsletter-subscribe form .btn-danger {
+    background-color:#17a2b8 !important;
+    color:#fff;
+    outline:none !important;
+  }
+  
+  
+/* how it work */
+#work-section{
+   
+    margin: 50px ;
+    padding: 50px 0 ;
+}
+
+  
+
+#work-section .card{
+   
+border-radius: 60px;
+}
+
+
+
+
+#work-section .overlay  .fas {
+   
+    padding: 20px ;
+    width: 59px;
+    color: #17a2b8;
+    background-color: aliceblue;
+    border-radius: 100%;
+    /* text-align: center; */
+
+}
+  
+  
+/* how it work */
+#service-section{
+   
+    margin: 50px ;
+    padding: 50px 0 ;
+
+}
+
+  
+
+#service-section .card{
+   
+border-radius: 60px;
+}
+
+
+
+
+#service-section .overlay  .fas {
+   
+    padding: 20px ;
+    width: 59px;
+    color: #17a2b8;
+    background-color: aliceblue;
+    border-radius: 100%;
+    /* text-align: center; */
+
+}
+
+
+.card {
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  margin-bottom: 30px;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+}
+.l-bg-cherry {
+  background: linear-gradient(to right, #11b69ae5, rgb(23, 162, 184)) !important;
+  color: #fff;
+}
+
+.l-bg-blue-dark {
+  background: linear-gradient(to right,  #11b69ae5,  rgb(23, 162, 184) ) !important;
+  color: #fff;
+}
+
+.l-bg-green-dark {
+  background: linear-gradient(to right,  #11b69ae5, rgb(23, 162, 184)) !important;
+  color: #fff;
+}
+
+.l-bg-orange-dark {
+  background: linear-gradient(to right,  #11b69ae5, rgb(23, 162, 184)) !important;
+  color: #fff;
+}
+
+.card .card-statistic-3 .card-icon-large .fas, .card .card-statistic-3 .card-icon-large .far, .card .card-statistic-3 .card-icon-large .fab, .card .card-statistic-3 .card-icon-large .fal {
+  font-size: 110px;
+}
+
+.card .card-statistic-3 .card-icon {
+  text-align: center;
+  line-height: 50px;
+  margin-left: 15px;
+  color: #000;
+  position: absolute;
+  right: -5px;
+  top: 20px;
+  opacity: 0.1;
+}
+
+.l-bg-cyan {
+  background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+  color: #fff;
+}
+
+.l-bg-green {
+  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%) !important;
+  color: #fff;
+}
+
+.l-bg-orange {
+  background: linear-gradient(to right, #f9900e, #ffba56) !important;
+  color: #fff;
+}
+
+.l-bg-cyan {
+  background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+  color: #fff;
+}
+
+
+

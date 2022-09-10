@@ -1,0 +1,111 @@
+
+
+.text-striked {
+    text-decoration: line-through;
+}
+.Imagecontainer .btn {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.403);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+
+.Imagecontainer .red:hover {
+    background-color: rgb(245, 16, 16);
+}
+
+
+.Imagecontainer .blue:hover {
+    background-color: rgb(37, 108, 251);
+}
+
+
+.category a {
+    text-decoration: none !important;
+    color: black;
+
+}
+
+.con {
+    padding: 60px 50px;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+
+
+body {
+    color: #000;
+    /* overflow-x: hidden; */
+    height: 100%;
+    /* background-image: url("https://i.imgur.com/GMmCQHC.png"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+.card {
+    padding: 30px 40px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border: none !important;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+.form-control-label {
+    margin-bottom: 0
+ 
+}
+
+input,
+textarea,
+button {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #17a2b8;
+    outline-width: 0;
+    font-weight: 400
+}
+
+.btn-block {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    /* font-weight: 400; */
+    /* height: 43px; */
+    cursor: pointer
+}
+
+.btn-block:hover {
+    color: #fff !important
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
